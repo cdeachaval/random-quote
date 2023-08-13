@@ -21,7 +21,6 @@ body {
 }
 
 .app_title {
-  align-items: first baseline;
   text-align: left;
   font-size: 15px;
   font-style: italic;
@@ -90,14 +89,17 @@ button:hover, a:hover {
   transform:scale(1.1);
 }
 
-#footer {
- text-align:center;
+.footer {
+ text-align: center;
+ position: relative;
+ color: white;
+ font-size: 1em;
+ text-decoration: none;
+ font-style: italic;
+ padding-top: 30px;
+ padding-right: 30px;
 }
-#sign {
-  font-size: 1em;
-  text-align: center;
-  text-decoration: none;
-}
+
 @media only screen and (max-device-width: 800px) {
   #quote-box {
     height: 23em;

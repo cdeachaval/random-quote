@@ -35,6 +35,9 @@ function App() {
             + encodeURIComponent('"' + quoteInfo.text + '" ' + quoteInfo.author)}
           >Tweet</a>
       </div>  
+      <div class="footer">
+        <p>by @cdeachaval</p>
+      </div>
     </div>
   );
 }
