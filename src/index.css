@@ -26,6 +26,7 @@ body {
   font-style: italic;
   left: 2 px;
   top: 1 px;
+  padding-bottom: 15px;
 }
 
 #quote-box {
