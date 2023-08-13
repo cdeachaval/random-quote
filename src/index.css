@@ -49,8 +49,8 @@ body {
   font-style: italic
 }
 
-#new-quote,
-#tweet-quote {
+#the-quote,
+#tweet-it {
   border: none;
   border-radius: 10%;
   margin: auto;
@@ -61,7 +61,7 @@ body {
 
 }
 
-#tweet-quote {
+#tweet-it {
   float: left;
   padding-top: 5px;
   height: 2em;
@@ -69,7 +69,7 @@ body {
   background-color: lightskyblue;
 }
 
-#new-quote {
+#the-quote {
   float: right;
   height: 3em;
   width: 10em;
@@ -105,7 +105,7 @@ button:hover, a:hover {
   #author {
     font-size: 1em;
   }
-  #new-quote {
+  #the-quote {
     margin-right: 1em;
   }
   #footer {
