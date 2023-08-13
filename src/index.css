@@ -34,6 +34,7 @@ body {
   width: 36em;
   border-radius: 8%;
   font-weight: bold;
+  overflow: auto;
   }  
 
 #text {
@@ -49,7 +50,11 @@ body {
   font-style: italic
 }
 
-#the-quote,
+#button-box {
+  padding: 30px
+}
+
+#get-quote,
 #tweet-it {
   border: none;
   border-radius: 10%;
@@ -69,7 +74,7 @@ body {
   background-color: lightskyblue;
 }
 
-#the-quote {
+#get-quote {
   float: right;
   height: 3em;
   width: 10em;
@@ -105,7 +110,7 @@ button:hover, a:hover {
   #author {
     font-size: 1em;
   }
-  #the-quote {
+  #get-quote {
     margin-right: 1em;
   }
   #footer {

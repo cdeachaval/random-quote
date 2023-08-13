@@ -27,11 +27,9 @@ function App() {
       <div id="quote-box">
         <p id="text">{quoteInfo.text}</p>
         <p id="author">{quoteInfo.author}</p>
-        <p id="new-quote"></p>
-        <a id="tweet-quote" href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text"> </a>
       </div>
       <div id="button-box">
-        <button id="the-quote" onClick={getQuote}>New Quote</button>
+        <button id="get-quote" onClick={getQuote}>Get Quote</button>
         <a id="tweet-it" 
           href={'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' 
             + encodeURIComponent('"' + quoteInfo.text + '" ' + quoteInfo.author)}
